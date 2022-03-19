@@ -3,7 +3,7 @@
 - [Purpose of Stack Data Structures](#purpose-of-stack-data-structures)
 - [Basic Operations of Stack Data Structures](#basic-operations-of-stack-data-structures)
 - [Efficiency and Performance of Stack Data Structure](#efficiency-an-pPerformance-of-stack-data-structure)
-- [Example Problems using Stacks in Python](#example-problems-using-stacks-in-python)
+- [Example Problem using Stack in Python](#example-problem-using-stack-in-python)
 - [Exercises](#exercises)
 
 
@@ -102,4 +102,4 @@ Try completing this code: [Exercise](exercise.py) before looking at the solution
 
 **Credit:** The exercise and exercise solution above was gotten from Geeksforgeeks.com
 ***
-[Back to table of contents](#table-of-contents)
+[Back to top](#table-of-contents)
