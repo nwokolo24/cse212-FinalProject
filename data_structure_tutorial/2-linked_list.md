@@ -11,13 +11,17 @@ Link list is another important data structure used in programming to store data 
 I like to see nodes as an array of two elements. In other words, a node is an array containing a value and the address of another node or a pointer to another node. Depending on the type of linked list, theis node (array of elements) can contain only two elements or three elements.
 
 Here is a picture showing an example
+
 ![Linked list data structure](linked_list.png)
+
 Photo Credit: programiz.com
 
 One important thing to note is that with linked list data structure, there is not guarantee that one node will be next to another node in memory. Just as we had seen in the picture, in linked list, the first node is called the head and the node whose next value if NULL is the last node and it is called a tail node.
 
 Here is picture from CSE212 course material
+
 ![Biderectional linked list](link_list2.png)
+
 Photo credit: byui_cse212 course material.
 
 I love the explanation given in the byui_cse212 course material. Here is a paragraph from the course content
@@ -27,6 +31,7 @@ I love the explanation given in the byui_cse212 course material. Here is a parag
 # Linked List Operations in Python
 Just like other data structures, linked list has a number of operations you can perform on them. I have provided a picture from the same byui_cse212 course material explaining these operations with some python example implementation.
 ![Linked list operations](linked_list_operation.png)
+
 Photo Credit: byui_cse212 course material.
 
 # Application of Linked List
