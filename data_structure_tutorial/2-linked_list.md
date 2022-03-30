@@ -3,7 +3,7 @@
 - [Linked List Operations in Python](#linked-list-operations-in-python)
 - [Application of Linked List](#application-of-linked-list)
 - [Example Problems using Linked List in Python](#example-problems-using-linked-list-in-python)
-- [Example Problem using Linked List in Python](#example-problem-using-linked-list-in-python)
+- [Exercises](#exercises)
 
 # Introduction
 Link list is another important data structure used in programming to store data when these data are not required to be next to each other unlike arrays. Link list is also a linear data structure. It consist of series of nodes that are connected together by reference. With some example as we will see below, the word node will be explained better.
@@ -57,7 +57,7 @@ class LinkedList:
         self.tail = None
 ```
 Click [here](linked_list_impl.py) to see am example of the implementation of a linked list and some linked list operations.
-# Example Problem using Linked List in Python
+# Exercises
 Question:
 ```python
 Given the head of a singly linked list, reverse the list, and return the reversed list.
@@ -67,4 +67,4 @@ Output: [5, 4, 3, 2, 1]
 ```
 Implement your answer [here](linked_list_exercise.py). You can find the solution [here](linked_list_solution.py)
 
-[Back to top](#introduction)
+[Back to top](#table-of-contents)
