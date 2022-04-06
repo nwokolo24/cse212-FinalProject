@@ -6,7 +6,6 @@
 - [Binary Search Tree](#binary-search-tree)
 - [Basic BST Operation Implementation](#basic-bst-operation-implementation)
 - [Exercises](#exercises)
-- [Back to top](#back-to-top)
 
 # Introduction
 A tree is a non-linear data structure consisting of a collection of nodes connected by directed or undirected edges. A tree data structure can be empty(containing no node), it can contain a single node called the root node or it can contain a root and other sub nodes or subtrees.
