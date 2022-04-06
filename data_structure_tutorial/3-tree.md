@@ -4,7 +4,7 @@
 - [Types of Tree Data Structure](#types-of-tree-data-structure)
 - [Tree Traversal](#tree-traversal)
 - [Binary Search Tree](#binary-search-tree)
-- [Example Problem using Tree Data Structures in Python](#example-problem-using-tree-data-structures-in-python)
+- [Basic BST Operation Implementation](#basic-bst-operation-implementation)
 - [Exercises](#exercises)
 - [Back to top](#back-to-top)
 
@@ -57,8 +57,47 @@ Traversing a tree entails visiting all of its nodes. There is just one way to re
     - Visit all nodes in the right subtree
     - Visit the root node
 
+Click this [link](tree_traversal.py) to see am example of the inplementation of the three types of traversal in Tree Data Structure.
+
 # Binary Search Tree
+Before we expalain what a binary search tree is, it will be nice to know what a binary tree is.
+
+>A binary tree is a tree data structure in which each parent node can have at most two children. 
+
+>Binary search tree which is an example of binary tree, is a data structure that quickly allows us to maintain a sorted list of numbers.
+
 According to cse212 course material, "A binary search tree (BST) is a binary tree that follows rules for data that is put into the tree. Data is placed into the BST by comparing the data with the value in the parent node. If the data being added is less than the parent node, then it is put in the left subtree. If the data being added is greater than the parent node, then it is put in the right subtree. If duplicates are allowed than the duplicate can be put either to the left or to the right of the root. By using this process, the data is stored in the tree sorted."
+
+Three characteristics that seperates BST from other types of binary trees are:
+- All nodes of left subtree are less than the root node.
+- All nodes of right subtree are greater than the root node.
+- Both subtrees of each node are also BSTs, that is they have the two properties above.
+
+**BST Search Algorithm**
+
+Here is a representation of the algorithm for searching a BST
+```python
+If root == None 
+    return None;
+If value == root.data 
+    return root.data;
+If value < root.data 
+    return search(root.left)
+If value > root.data 
+    return search(root.right)
+```
+
+**BST Insert Algorithm**
+
+```python
+If node == None 
+    return create_node(value)
+if (value < node.value)
+    node.left  = insert(node.left, value);
+else if (value > node.value)
+    node.right = insert(node.right, data);  
+return node;
+```
 
 A picture representation of this explanaton
 ![Binary Search Tree](bst.png)
@@ -68,8 +107,12 @@ As we shall see in the example below, here is a pictoral representation of Binar
 ![BST Operations](bst_operation.png)
 Photo Credit: cse212 course material
 
-# Example Problem using Tree Data Structures in Python
+# Basic BST Operation Implementation
+Here is [link](bst_operations.py) showing some bst operations.
+Credit: The example in the link above is from programiz.com and clearly explained important bst operations.
 
 # Exercises
+**QUESTION**
+Here is an industry standard [exercise](tree_exercise.py) to help you practice BST. Here is a [solution](tree_exercise_solution.py) to the exercise
 
 [Back to top](#table-of-contents)
